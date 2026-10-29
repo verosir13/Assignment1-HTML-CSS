@@ -1,0 +1,28 @@
+.navbar a {
+    display: inline-block;
+    justify-content: center;
+    background-color: #1833aa;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.welcome {
+    text-align: center;
+    margin-top: 50px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
