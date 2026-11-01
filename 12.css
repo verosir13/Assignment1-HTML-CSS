@@ -1,0 +1,22 @@
+
+p{
+    color: blue;
+    font-size: 18px;
+}
+
+
+.content-box {
+    background-color: lightyellow;
+    border: 2px solid orange;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+#main-heading {
+    color: rgb(65, 19, 231);
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+}
+

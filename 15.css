@@ -1,0 +1,23 @@
+
+.box {
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(11, 207, 60);
+}
+.solid-box {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 15px;
+}
+.thick-box {
+    border-style: solid;
+    border-width: 6px;
+    border-color: red;
+}
+.dashed-box {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: blue;
+}
