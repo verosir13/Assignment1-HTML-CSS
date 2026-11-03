@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Services</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px 20px;
+            font-family: Arial, sans-serif;
+            background: #f3f5f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #203864;
+            margin-bottom: 35px;
+        }
+
+        .services-container {
+            display: flex;
+            gap: 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .service-card {
+            flex: 1;
+            min-width: 0;
+            padding: 30px 20px;
+            background: white;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            overflow-wrap: anywhere;
+        }
+
+        .service-card h2 {
+            color: #203864;
+            font-size: 22px;
+        }
+
+        .service-card p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .service-card button {
+            background: #203864;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .service-card button:hover {
+            background: #365a96;
+        }
+
+        /* Mobile breakpoint */
+        @media screen and (max-width: 600px) {
+            body {
+                padding: 20px 15px;
+            }
+
+            .services-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .service-card {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Student Services</h1>
+
+    <div class="services-container">
+
+        <div class="service-card">
+            <h2>Accommodation</h2>
+            <p>
+                Find comfortable student housing and
+                accommodation facilities on campus.
+            </p>
+            <button>Explore</button>
+        </div>
+
+        <div class="service-card">
+            <h2>Library</h2>
+            <p>
+                Access books, research materials,
+                digital resources and study spaces.
+            </p>
+            <button>Visit Library</button>
+        </div>
+
+        <div class="service-card">
+            <h2>Student Registration</h2>
+            <p>
+                Register for courses, manage your
+                student details and access academic services.
+            </p>
+            <button>Register</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

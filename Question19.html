@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Service Boxes</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #203864;
+        }
+
+        /* Parent container */
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        /* Child boxes */
+        .service-box {
+            flex: 1 1 250px;
+            padding: 30px;
+            background-color: #ffffff;
+            border: 2px solid #203864;
+            border-radius: 10px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .service-box h2 {
+            color: #203864;
+        }
+
+        .service-box p {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Our Student Services</h1>
+
+    <div class="container">
+
+        <div class="service-box">
+            <h2>Accommodation</h2>
+            <p>Find comfortable student housing.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Library</h2>
+            <p>Access books and learning resources.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Registration</h2>
+            <p>Register for courses and student services.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

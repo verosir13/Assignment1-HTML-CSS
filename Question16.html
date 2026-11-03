@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model Demo</title>
+
+  <style>
+    .panel {
+      width: 300px;
+      padding: 20px;
+      border: 2px solid black;
+      margin: 15px;
+      background-color: lightblue;
+    }
+
+    .content-box {
+      box-sizing: content-box;
+    }
+
+    .border-box {
+      box-sizing: border-box;
+    }
+
+    h3 {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>CSS Box Model Comparison</h2>
+
+  <h3>1. Content-box</h3>
+  <div class="panel content-box">
+    Content-box panel (300px)
+  </div>
+
+  <h3>2. Border-box</h3>
+  <div class="panel border-box">
+    Border-box panel (300px)
+  </div>
+
+</body>
+</html>
